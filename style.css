@@ -2,11 +2,15 @@
     font-family: Manrope;
 }
 /*Navbar Starts*/
-.navbar-brand{
+.navbar-brand {
     font-size: 36px !important;
     color: #131318;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+.nav_main {
+    margin-top: 2%;
 }
 /*Navbar Ends*/
