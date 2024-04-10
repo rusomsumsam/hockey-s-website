@@ -100,3 +100,82 @@
     margin-top: 20px;
 }
 /*Profesional Hockey's Club Ends*/
+/*Profesional Hockey's Club Facility Starts*/
+ .circle-chart {
+    width: 150px;
+    height: 150px;
+  }
+  .circle-chart__circle {
+    stroke: #00acc1;
+    stroke-width: 2;
+    stroke-linecap: square;
+    fill: none;
+    animation: circle-chart-fill 2s reverse; /* 1 */ 
+    transform: rotate(-90deg); /* 2, 3 */
+    transform-origin: center; /* 4 */
+  }
+  .circle-chart__circle--negative {
+    transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+  }
+  .circle-chart__background {
+    stroke: #efefef;
+    stroke-width: 2;
+    fill: none; 
+  }
+  .circle-chart__info {
+    animation: circle-chart-appear 2s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+    -webkit-animation: circle-chart-appear 2s forwards;
+}
+  .circle-chart__percent {
+    text-anchor: middle;
+    font-size: 8px;
+  }
+  .circle-chart__subline {
+      text-anchor: middle;
+      font-size: 3px;
+  }
+  .success-stroke {
+    stroke: #4C8DF1;
+  }
+  .warning-stroke {
+    stroke: #ff4240;
+  }
+  .danger-stroke {
+    stroke: #49d293;
+  }
+  @keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+  }
+  @keyframes circle-chart-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.professional_hockey_club_des_main {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.professional_hockey_club_des_main p{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.progress_cus {
+    margin-top: 80px;
+}
+.professional_hockey_club_des_main h5 {
+    margin-top: 20px;
+}
+/*Profesional Hockey's Club Facility Ends*/
