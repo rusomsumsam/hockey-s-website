@@ -396,3 +396,26 @@
   margin-top: 80px;
 }
 /*Products Display Ends*/
+/*Clients Question Starts*/
+.client_questions_title h3 {
+  color: #131318;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.client_questions_title p {
+  color: rgba(19, 19, 24, 0.60);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.client_questions {
+  margin-top: 50px;
+}
+/*Clients Question Ends*/
