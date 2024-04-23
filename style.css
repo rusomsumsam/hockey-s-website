@@ -344,3 +344,55 @@
   margin-top: 20px;
 }
 /*Our New Products Ends*/
+/*Products Display Starts*/
+.product_card_inner {
+  width: 50%;
+}
+.first_card_img {
+  width: 30%;
+}
+.first_card_img_dis {
+  width: 70%;
+}
+.tshirt_heading p {
+  color: #131318;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.tshirt_text p {
+  color: rgba(19, 19, 24, 0.60);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.price_text span {
+  color: #FF4240;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 26px;
+}
+.delivery_fee_dis span {
+  color: rgba(19, 19, 24, 0.50);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.second_product_card_inner {
+  width: 50%;
+}
+.first_card_wrap, .third_card_wrap, .fifth_card_wrap, .second_card_wrap, .fourth_card_wrap, .sixth_card_wrap{
+  margin-bottom: 50px;
+}
+.product_display_main {
+  margin-top: 80px;
+}
+/*Products Display Ends*/
