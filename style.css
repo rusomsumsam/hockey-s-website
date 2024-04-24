@@ -419,3 +419,33 @@
   margin-top: 50px;
 }
 /*Clients Question Ends*/
+/*Clients Question Details Starts*/
+.accordion_img {
+  width: 40%;
+}
+.accordion_sec {
+  width: 60%;
+}
+.accordion_button_cus {
+  color: #131318;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.accordion_body_cus {
+  color: rgba(19, 19, 24, 0.60);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.accordion_img img {
+  width: 95%;
+}
+.accordion_sec_main {
+  margin-top: 70px;
+}
+/*Clients Question Details Ends*/
