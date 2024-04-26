@@ -449,3 +449,26 @@
   margin-top: 70px;
 }
 /*Clients Question Details Ends*/
+/*Get In Touch Section Starts*/
+.get_in_touch_title h3 {
+  color: #131318;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.get_in_touch_title p {
+  color: rgba(19, 19, 24, 0.60);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.get_in_touch {
+  margin-top: 70px;
+}
+/*Get In Touch Section Ends*/
