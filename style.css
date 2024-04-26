@@ -591,3 +591,64 @@ textarea::placeholder {
   margin-top: 70px;
 }
 /*Social Media Section Ends*/
+/*Footer Section Starts*/
+.get_in_touch_wrap {
+  width: 30%;
+}
+.company_support_service_wrap {
+  width: 70%;
+}
+.footer_link_cus a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.60);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.get_touch_title p{
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.company_section_title, .support_section_title, .services_section_title p {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.get_in_touch_text p {
+  width: 346px;
+  color: rgba(255, 255, 255, 0.60);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.mail_icon_text, .phn_nmbr_text {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.company_support_service_wrap {
+  margin-left: 120px;
+}
+.get_in_touch_wrap {
+  margin-left: 20px;
+}
+.footer_section_inner {
+  margin-top: 50px;
+  padding-top: 80px;
+  height: 400px;
+}
+/*Footer Section Ends*/
