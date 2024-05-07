@@ -279,6 +279,7 @@
     flex-direction: column;
   }
 }
+/*!Profesional Hockey's Club Facility For Responsive Ends*/
 /*Program Sections Starts*/
 .program_sections_title {
   width: 55%;
@@ -305,6 +306,17 @@
   margin-top: 20px;
 }
 /*Program Sections Ends*/
+/*!Program Sections For Responsive Starts*/
+@media only screen and (max-width:926px) {
+  .program_sections_main {
+    width: 80%;
+    margin: auto;
+  }
+  .program_sections_title {
+    width: 100%;
+  }
+  }
+/*!Program Sections For Responsive Ends*/
 /*Program Sections Card Starts*/
 .first_card_main {
   width: 50%;
