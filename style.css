@@ -272,6 +272,13 @@
     margin-top: 20px;
 }
 /*Profesional Hockey's Club Facility Ends*/
+/*!Profesional Hockey's Club Facility For Responsive Starts*/
+@media only screen and (max-width:810px) {
+  .progress_cus {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /*Program Sections Starts*/
 .program_sections_title {
   width: 55%;
