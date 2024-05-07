@@ -182,6 +182,17 @@
     margin-top: 20px;
 }
 /*Profesional Hockey's Club Ends*/
+/*!Profesional Hockey's Club For Responsive Starts*/
+@media only screen and (max-width:926px) {
+.professional_hockeys_club_main {
+  width: 80%;
+  margin: auto;
+}
+.professional_hockeys_club_title {
+  width: 100%;
+}
+}
+/*!Profesional Hockey's Club For Responsive Ends*/
 /*Profesional Hockey's Club Facility Starts*/
  .circle-chart {
     width: 150px;
