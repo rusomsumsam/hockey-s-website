@@ -40,7 +40,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
 }
 .carousel-control-prev {
     top: 90% !important;
@@ -74,34 +74,19 @@
     width: 23px !important;
 }
 /*!Hero Section Responsive Starts*/
-@media only screen and (min-width:900px) and (max-width:1030px) {
+@media only screen and (min-width:991px) and (max-width:1060px) {
   .car_cus {
     left: 40% !important;
   }
 }
-@media only screen and (max-width:899px) {
+@media only screen and (max-width:990px) {
   .car_cus {
     visibility: hidden;
   }
 }
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:991px) {
   .car_cus_res {
     display: none !important;
-  }
-}
-@media only screen and (max-width:430px) {
-  .car_cus_res {
-    height: fit-content !important;
-  }
-}
-@media only screen and (min-width:586px) and (max-width:899px) {
-  .carousel-control-prev {
-    left: 45% !important;
-    top: 80% !important;
-  }
-  .carousel-control-next {
-    left: 52% !important;
-    top: 80% !important;
   }
 }
 @media only screen and (max-width:586px) {
@@ -112,6 +97,26 @@
   .carousel-control-next {
     left: 52% !important;
     top: 80% !important;
+  }
+}
+@media only screen and (min-width:587px) and (max-width:990px) {
+  .carousel-control-prev {
+    left: 45% !important;
+    top: 80% !important;
+  }
+  .carousel-control-next {
+    left: 52% !important;
+    top: 80% !important;
+  }
+}
+@media only screen and (max-width:499px) {
+  .car_cus_res {
+    height: fit-content !important;
+  }
+}
+@media only screen and (max-width:1200px) {
+  .container_cus_main {
+    max-width: 95% !important;
   }
 }
 /*!Hero Section Responsive Ends*/
@@ -136,10 +141,19 @@
   text-align: center;
   color: white;
   padding-top: 20px;
+  font-size: 24px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .car_cus_res p {
   text-align: center;
   color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
 }
 /*Card For Responsive Ends*/
 /*Profesional Hockey's Club Starts*/
