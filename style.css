@@ -421,11 +421,12 @@
       line-height: 14px !important;
     }
     .second_card_inner p {
-      width: 280px;
+      width: 290px;
       font-size: 12px !important;
       line-height: 14px !important;
     }  
 }
+/*!Program Sections Card Responsive Ends*/
 /*Program Sections Big Card Starts*/
 .big_card_main {
   width: 100%;
@@ -466,6 +467,22 @@
   margin-top: 200px;
 }
 /*Program Sections Big Card Ends*/
+/*!Program Sections Big Card For Responsive Starts*/
+@media only screen and (max-width:530px) {
+  .big_card_cus p {
+    width: 390px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+  @media only screen and (max-width:470px) {
+    .big_card_cus p {
+      width: 295px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+}
+/*!Program Sections Big Card For Responsive Ends*/
 /*Our New Products Starts*/
 .new_products_title {
   width: 55%;
