@@ -13,6 +13,11 @@
     margin-top: 2%;
 }
 /*Navbar Ends*/
+/*For Only Set a Container Starts*/
+.container_cus_main {
+  max-width: 95%;
+  margin: auto;
+}
 /*Hero Section Starts*/
 .car_cus {
     background-color: #131318;
@@ -509,7 +514,22 @@
   margin-top: 20px;
 }
 /*Our New Products Ends*/
+/*!Our New Products For Responsive Starts*/
+@media only screen and (max-width:926px) {
+  .new_products_main {
+    width: 80%;
+    margin: auto;
+  }
+  .new_products_title {
+    width: 100%;
+  }
+  }
+/*!Our New Products For Responsive Ends*/
 /*Products Display Starts*/
+.product_display_main {
+  width: 100%;
+  margin-top: 80px;
+}
 .product_card_inner {
   width: 50%;
 }
@@ -554,13 +574,63 @@
 .second_product_card_inner {
   width: 50%;
 }
-.first_card_wrap, .third_card_wrap, .fifth_card_wrap, .second_card_wrap, .fourth_card_wrap, .sixth_card_wrap{
+.first_card_wrap, .third_card_wrap, .fifth_card_wrap, .second_card_wrap, .fourth_card_wrap, .sixth_card_wrap {
   margin-bottom: 50px;
 }
-.product_display_main {
-  margin-top: 80px;
-}
 /*Products Display Ends*/
+/*!Products Display For Responsive Starts*/
+@media only screen and (min-width:1140px) {
+  .first_card_wrap, .third_card_wrap, .fifth_card_wrap {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 1.5rem !important;
+  }
+  .second_card_wrap, .fourth_card_wrap, .sixth_card_wrap {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 1.5rem !important;
+  }
+}
+@media only screen and (max-width:1140px) {
+  .product_display_main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product_card_inner {
+    width: 100% !important;
+    align-items: center;
+  }
+  .first_card_wrap, .third_card_wrap, .fifth_card_wrap {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 2.5rem !important;
+  }
+  .second_product_card_inner {
+    width: 100% !important;
+    align-items: center;
+  }
+  .second_card_wrap, .fourth_card_wrap, .sixth_card_wrap {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 2.5rem !important;
+  }
+}
+@media only screen and (max-width:524px) {
+  .first_card_wrap, .third_card_wrap, .fifth_card_wrap, .second_card_wrap, .fourth_card_wrap, .sixth_card_wrap {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .first_card_img {
+    width: 100%;
+  }
+  .first_card_img img {
+    width: 100%;
+  }
+  .first_card_img_dis {
+    width: 100%;
+  }
+}
+/*!Products Display For Responsive Ends*/
 /*Clients Question Starts*/
 .client_questions_title h3 {
   color: #131318;
