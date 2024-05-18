@@ -664,6 +664,11 @@
     width: 100%;
   }
   }
+@media only screen and (max-width:624px) {
+  .clients_question_break_rmv {
+    display: none;
+  }
+}
   /*!Clients Question For Responsive Ends*/
 /*Clients Question Details Starts*/
 .accordion_sec_main {
