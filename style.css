@@ -331,14 +331,14 @@
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-.first_card_cus h1 {
+.first_card_inner h1 {
   color: #FFF;
   font-size: 28px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
-.first_card_cus p {
+.first_card_inner p {
   width: 450px;
   color: #FFF;
   font-size: 16px;
@@ -346,10 +346,10 @@
   font-weight: 20;
   line-height: 26px;
 }
-.first_card_cus {
+.first_card_inner {
   padding: 25px ;
 }
-.first_card_cus button {
+.first_card_inner button {
   width: 150px;
 }
 .second_card_main {
@@ -365,14 +365,14 @@
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-.second_card_cus h1 {
+.second_card_inner h1 {
   color: #FFF;
   font-size: 28px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
-.second_card_cus p {
+.second_card_inner p {
   width: 450px;
   color: #FFF;
   font-size: 16px;
@@ -380,16 +380,53 @@
   font-weight: 20;
   line-height: 26px;
 }
-.second_card_cus {
+.second_card_inner {
   padding: 25px;
 }
-.second_card_cus button {
+.second_card_inner button {
   width: 150px;
 }
 .card_section_main {
   margin-top: 60px;
 }
 /*Program Sections Card Ends*/
+/*!Program Sections Card Responsive Starts*/
+@media only screen and (max-width:1030px) {
+  .card_sec_wrap {
+    flex-direction: column;
+  }
+  .first_card_cus {
+    width: 100%;
+  }
+  .second_card_cus {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:530px) {
+  .first_card_inner p {
+    width: 400px;
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .second_card_inner p {
+    width: 400px;
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+}
+@media only screen and (max-width:470px) {
+    .first_card_inner p {
+      width: 280px;
+      font-size: 12px !important;
+      line-height: 14px !important;
+    }
+    .second_card_inner p {
+      width: 280px;
+      font-size: 12px !important;
+      line-height: 14px !important;
+    }  
+}
+  
 /*Program Sections Big Card Starts*/
 .big_card_main {
   width: 100%;
