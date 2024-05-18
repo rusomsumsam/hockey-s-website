@@ -654,6 +654,17 @@
   margin-top: 50px;
 }
 /*Clients Question Ends*/
+/*!Clients Question For Responsive Starts*/
+@media only screen and (max-width:926px) {
+  .client_questions {
+    width: 80%;
+    margin: auto;
+  }
+  .client_questions_title {
+    width: 100%;
+  }
+  }
+  /*!Clients Question For Responsive Ends*/
 /*Clients Question Details Starts*/
 .accordion_img {
   width: 40%;
