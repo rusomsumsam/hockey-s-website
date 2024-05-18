@@ -666,7 +666,7 @@
   }
 @media only screen and (max-width:624px) {
   .clients_question_break_rmv {
-    display: none;
+    display: none !important;
   }
 }
   /*!Clients Question For Responsive Ends*/
@@ -746,6 +746,17 @@
   margin-top: 70px;
 }
 /*Get In Touch Section Ends*/
+/*!Get In Touch Section For Responsive Starts*/
+@media only screen and (max-width:926px) {
+  .get_in_touch {
+    width: 80%;
+    margin: auto;
+  }
+  .get_in_touch_title {
+    width: 100%;
+  }
+  }
+/*!Get In Touch Section For Responsive Ends*/
 /*Get in Touch Form Section Starts*/
 .phn_mail_address_form_wrap {
   width: 40%;
