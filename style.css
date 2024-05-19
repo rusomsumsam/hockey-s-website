@@ -807,7 +807,6 @@ label {
 .input_cus {
   width: 326px;
   height: 64px;
-  flex-shrink: 0;
   border-radius: 12px;
   background: rgba(19, 19, 24, 0.03);
   outline: none;
@@ -866,7 +865,7 @@ textarea::placeholder {
 }
 /*Get in Touch Form Section Ends*/
 /*!Get in Touch Form Section For Responsive Starts*/
-@media only screen and (max-width:1140px) {
+@media only screen and (max-width:1141px) {
   .form_inner {
     display: flex !important;
     flex-direction: column !important;
@@ -881,8 +880,6 @@ textarea::placeholder {
     width: 100% !important;
     align-items: center;
   }
-}
-@media only screen and (max-width:710px) {
   .name_mail_wrap {
     flex-direction: column !important;
   }
@@ -898,7 +895,7 @@ textarea::placeholder {
   .send_message_button button {
     width: 100% !important;
   }
-  }
+}
 /*!Get in Touch Form Section For Responsive Ends*/
 /*Social Media Section Starts*/
 .social_media_title {
@@ -915,6 +912,9 @@ textarea::placeholder {
 }
 /*Social Media Section Ends*/
 /*Footer Section Starts*/
+.footer_section_inner {
+  width: 100%;
+}
 .get_in_touch_wrap {
   width: 30%;
 }
@@ -947,7 +947,6 @@ textarea::placeholder {
   line-height: normal;
 }
 .get_in_touch_text p {
-  width: 346px;
   color: rgba(255, 255, 255, 0.60);
   font-family: Manrope;
   font-size: 16px;
@@ -975,3 +974,68 @@ textarea::placeholder {
   height: 400px;
 }
 /*Footer Section Ends*/
+/*!Footer Section For Responsive Starts*/
+@media only screen and (max-width:991px) {
+  .footer_section_inner {
+    flex-direction: column !important;
+    height: fit-content !important;
+    align-items: center;
+  }
+  .get_in_touch_wrap {
+    width: 100% !important;
+    margin-right: 20px;
+  }
+  .get_touch_title {
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .get_in_touch_text {
+    width: 85% !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .mail_wrap {
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .phn_nmbr_wrap {
+    text-align: center !important;
+    margin: auto !important;
+  }
+}
+@media only screen and (min-width:991px) {
+  .bg_increase_cus {
+    max-width:95% !important;
+    margin: auto !important;
+  }
+}
+@media only screen and (min-width:637px) and (max-width:991px) {
+  .company_support_service_wrap {
+    width: 100% !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+}
+@media only screen and (max-width:636px) {
+  .services_section_main {
+    display: none;
+  }
+  .company_support_service_wrap {
+    width: 100% !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .services_section_main_cus {
+    width: 100% !important;
+    text-align: center !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (min-width:637px) {
+  .services_section_main_cus {
+    display: none;
+  }
+}
+/*!Footer Section For Responsive Ends*/
+
